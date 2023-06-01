@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ubuntu/Demo/02-MLflow/mlruns/0/7fef8b23d4c24373b154884048bc0219/artifacts
+end_time: 1685381542321
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7fef8b23d4c24373b154884048bc0219
+run_name: agreeable-hawk-920
+run_uuid: 7fef8b23d4c24373b154884048bc0219
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1685381542311
+status: 4
+tags: []
+user_id: ubuntu

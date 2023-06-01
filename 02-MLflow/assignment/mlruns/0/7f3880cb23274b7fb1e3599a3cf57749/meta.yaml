@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/7f3880cb23274b7fb1e3599a3cf57749/artifacts
+end_time: 1685382590596
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7f3880cb23274b7fb1e3599a3cf57749
+run_name: awesome-hog-147
+run_uuid: 7f3880cb23274b7fb1e3599a3cf57749
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1685382579168
+status: 3
+tags: []
+user_id: ubuntu

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/6955b3a868bd40968a7950ed21fda19f/artifacts
+end_time: 1685382335553
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6955b3a868bd40968a7950ed21fda19f
+run_name: casual-frog-845
+run_uuid: 6955b3a868bd40968a7950ed21fda19f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1685382323998
+status: 3
+tags: []
+user_id: ubuntu

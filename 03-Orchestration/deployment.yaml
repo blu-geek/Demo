@@ -1,6 +1,5 @@
 deployments:
-- name: mytaxi_data
-  entrypoint: orchestrate.py:main_flow
+- name: taxi4
+  entrypoint: Users/mac/Demo/mlops/prefect-mlops-zoomcamp/3.4/orchestrate.py:main_flow
   work_pool:
     name: my_pool
-    

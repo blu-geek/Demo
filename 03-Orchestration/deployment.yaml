@@ -1,0 +1,6 @@
+deployments:
+- name: mytaxi_data
+  entrypoint: orchestrate.py:main_flow
+  work_pool:
+    name: my_pool
+    

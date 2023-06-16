@@ -12,6 +12,8 @@ from prefect import flow, task
 from prefect_aws import S3Bucket
 from prefect.artifacts import create_markdown_artifact
 from datetime import date
+from typing import List
+from prefect_email import EmailServerCredentials, email_send_message
 
 
 @task(retries=3, retry_delay_seconds=2)
@@ -129,6 +131,17 @@ def train_best_model(
 
     return None
 
+
+@flow
+def sample_email_send_message(email_addresses: List[str]):
+    email_server_credentials = EmailServerCredentials.load('mailblock')
+    for email_address in email_addresses:
+        subject = email_send_message.with_options(name=f"email{email_address}").submit(
+            email_server_credentials = email_server_credentials,
+            subject = "Sample Task Alert",
+            msg = "This is to notify you of a successful deployment!!! Check Server UI for details",
+            email_to = email_address,
+        )
 
 @flow
 def main_flow_1(

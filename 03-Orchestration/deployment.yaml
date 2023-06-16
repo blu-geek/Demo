@@ -11,3 +11,5 @@ deployments:
   entrypoint: Users/mac/Demo/mlops/prefect-mlops-zoomcamp/3.5/orchestrate_s3.py:main_flow
   work_pool:
     name: my_pool
+
+    
